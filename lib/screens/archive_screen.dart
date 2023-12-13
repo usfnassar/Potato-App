@@ -54,6 +54,23 @@ class _ArchiveScreenState extends State<ArchiveScreen> {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
+          title:Text(
+          'History',
+          style: TextStyle(
+            fontFamily: "Pacifico",
+            color: Color(0xff006e1c),
+            shadows: <Shadow>[
+              Shadow(
+                offset: Offset(1, 1.0),
+                blurRadius: 1.0,
+                color: Color.fromARGB(50, 0, 0, 0),
+              ),
+
+            ],
+            fontSize: 33,
+          ),
+        ),
+          centerTitle: true,
           backgroundColor: Colors.white,
           elevation: 0.0,
           leading: IconButton(
@@ -68,33 +85,12 @@ class _ArchiveScreenState extends State<ArchiveScreen> {
         ),
         body: user.recentPlants!.length != 0
             ? Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 8.0, vertical: 10.0),
+            padding: const EdgeInsets.only(left: 8.0, right: 8.0, bottom: 15.0),
+
                 child: Column(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 9.0),
-                      child: Center(
-                        child: Text(
-                          'History',
-                          style: TextStyle(
-                            fontFamily: "Pacifico",
-                            color: Color(0xff006e1c),
-                            shadows: <Shadow>[
-                              Shadow(
-                                offset: Offset(1, 1.0),
-                                blurRadius: 1.0,
-                                color: Color.fromARGB(50, 0, 0, 0),
-                              ),
-
-                            ],
-                            fontSize: 33,
-                          ),
-                        ),
-                      ),
-                    ),
                     SizedBox(
-                      height: 9.0,
+                      height: 25.0,
                     ),
                     Container(
                       child: Expanded(

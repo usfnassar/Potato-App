@@ -190,8 +190,8 @@ class _ResultPageState extends State<ResultPage> {
                 )),
               )),
               Positioned(
-                  left: 10.0,
-                  top: 60.0,
+                  left: 3.0,
+                  top: 27.0,
                   child: IconButton(
                     icon: Icon(
                       Icons.arrow_back_ios,
@@ -220,34 +220,31 @@ class _ResultPageState extends State<ResultPage> {
                               Row(
                                 children: [
                                   SvgPicture.asset(
-                                      "assets/images/planet_name_logo.svg"),
+                                      "assets/images/planet_name_logo.svg",width: 40.0,height: 40.0,),
                                   SizedBox(
                                     width: 5.0,
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 15.0),
-                                    child: Text(
-                                      "Plant name",
-                                      style: TextStyle(
-                                        color: Colors.green,
-                                        fontSize: 22.0,
-                                        fontFamily: "Pacifico",
+                                  Text(
+                                    "Plant name",
+                                    style: TextStyle(
+                                      color: Colors.green,
+                                      fontSize: 22.0,
+                                      fontFamily: "Pacifico",
 
-                                          shadows: <Shadow>[
-                                              Shadow(
-                                                offset: Offset(1, 1.0),
-                                                blurRadius: 1.0,
-                                                color: Color.fromARGB(50, 0, 0, 0),
-                                              ),
+                                        shadows: <Shadow>[
+                                            Shadow(
+                                              offset: Offset(1, 1.0),
+                                              blurRadius: 1.0,
+                                              color: Color.fromARGB(50, 0, 0, 0),
+                                            ),
 
-                                            ],
-                                      ),
+                                          ],
                                     ),
                                   ),
                                 ],
                               ),
                               SizedBox(
-                                height: 6.0,
+                                height: 4.0,
                               ),
                               Text(
                                 result.predictedClassLabel.planetName,
@@ -264,34 +261,31 @@ class _ResultPageState extends State<ResultPage> {
                               Row(
                                 children: [
                                   SvgPicture.asset(
-                                      "assets/images/disease_icon.svg"),
+                                      "assets/images/disease_icon.svg",width: 40.0,height: 40.0,),
                                   SizedBox(
                                     width: 5.0,
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 15.0),
-                                    child: Text(
-                                      "Disease Detected",
-                                      style: TextStyle(
-                                        color: Colors.green,
-                                        fontSize: 22.0,
-                                        fontFamily: "Pacifico",
+                                  Text(
+                                    "Disease Detected",
+                                    style: TextStyle(
+                                      color: Colors.green,
+                                      fontSize: 22.0,
+                                      fontFamily: "Pacifico",
 
-                                          shadows: <Shadow>[
-                                              Shadow(
-                                                offset: Offset(1, 1.0),
-                                                blurRadius: 1.0,
-                                                color: Color.fromARGB(50, 0, 0, 0),
-                                              ),
+                                        shadows: <Shadow>[
+                                            Shadow(
+                                              offset: Offset(1, 1.0),
+                                              blurRadius: 1.0,
+                                              color: Color.fromARGB(50, 0, 0, 0),
+                                            ),
 
-                                            ],
-                                      ),
+                                          ],
                                     ),
                                   ),
                                 ],
                               ),
                               SizedBox(
-                                height: 6.0,
+                                height: 4.0,
                               ),
                               Text(
                                 result.predictedClassLabel.planetDisease !=
