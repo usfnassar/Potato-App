@@ -182,7 +182,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           child: Text(
                             'Create account',
                             style: TextStyle(
-                              color:  Color(0xff006e1c),
+                              color: Color(0xff006e1c),
                             ),
                           ),
                         )

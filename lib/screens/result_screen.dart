@@ -232,6 +232,15 @@ class _ResultPageState extends State<ResultPage> {
                                         color: Colors.green,
                                         fontSize: 22.0,
                                         fontFamily: "Pacifico",
+
+                                          shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                       ),
                                     ),
                                   ),
@@ -265,8 +274,17 @@ class _ResultPageState extends State<ResultPage> {
                                       "Disease Detected",
                                       style: TextStyle(
                                         color: Colors.green,
-                                        fontSize: 20.0,
+                                        fontSize: 22.0,
                                         fontFamily: "Pacifico",
+
+                                          shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                       ),
                                     ),
                                   ),
@@ -306,8 +324,17 @@ class _ResultPageState extends State<ResultPage> {
                                             "Possible remedy",
                                             style: TextStyle(
                                               color: Colors.green,
-                                              fontSize: 20.0,
+                                              fontSize: 22.0,
                                               fontFamily: "Pacifico",
+
+                                                shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                             ),
                                           ),
                                         ),
@@ -363,8 +390,17 @@ class _ResultPageState extends State<ResultPage> {
                                       'Reminder',
                                       style: TextStyle(
                                         color: Colors.green,
-                                        fontSize: 20.0,
+                                        fontSize: 22.0,
                                         fontFamily: "Pacifico",
+
+                                          shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                       ),
                                     ),
                                     Padding(

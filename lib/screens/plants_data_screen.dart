@@ -152,6 +152,14 @@ class _PlantDataScreenState extends State<PlantDataScreen> {
                 style: TextStyle(
                   fontSize: 33.0,
                   color: Color(0xff006e1c),
+                  shadows: <Shadow>[
+                    Shadow(
+                      offset: Offset(1, 1.0),
+                      blurRadius: 1.0,
+                      color: Color.fromARGB(50, 0, 0, 0),
+                    ),
+
+                  ],
                   fontFamily: "Pacifico",
                 ),
               ),

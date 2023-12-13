@@ -72,6 +72,14 @@ class ResultArchivePage extends StatelessWidget {
                                       color: Colors.green,
                                       fontSize: 22.0,
                                       fontFamily: "Pacifico",
+                                        shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                     ),
                                   ),
                                 ),
@@ -107,6 +115,14 @@ class ResultArchivePage extends StatelessWidget {
                                       color: Colors.green,
                                       fontSize: 22.0,
                                       fontFamily: "Pacifico",
+                                        shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                     ),
                                   ),
                                 ),
@@ -145,6 +161,15 @@ class ResultArchivePage extends StatelessWidget {
                                             color: Colors.green,
                                             fontSize: 22.0,
                                             fontFamily: "Pacifico",
+                                              shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
+
                                           ),
                                         ),
                                       ),
@@ -199,6 +224,14 @@ class ResultArchivePage extends StatelessWidget {
                                       color: Colors.green,
                                       fontSize: 22.0,
                                       fontFamily: "Pacifico",
+                                        shadows: <Shadow>[
+                                              Shadow(
+                                                offset: Offset(1, 1.0),
+                                                blurRadius: 1.0,
+                                                color: Color.fromARGB(50, 0, 0, 0),
+                                              ),
+
+                                            ],
                                     ),
                                   ),
                                   Padding(

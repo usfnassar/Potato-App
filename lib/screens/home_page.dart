@@ -284,8 +284,17 @@ class _HomePageState extends State<HomePage> {
                             "Lets's get started",
                             style: TextStyle(
                                 color: Color(0xff006e1c),
+                                shadows: <Shadow>[
+                                  Shadow(
+                                    offset: Offset(1, 1.0),
+                                    blurRadius: 1.0,
+                                    color: Color.fromARGB(50, 0, 0, 0),
+                                  ),
+
+                                ],
                                 fontSize: 40.0,
                                 fontFamily: "Haettenschweiler"),
+
                           ),
                           SizedBox(
                             height: 21.0,

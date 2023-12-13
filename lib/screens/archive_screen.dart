@@ -80,6 +80,14 @@ class _ArchiveScreenState extends State<ArchiveScreen> {
                           style: TextStyle(
                             fontFamily: "Pacifico",
                             color: Color(0xff006e1c),
+                            shadows: <Shadow>[
+                              Shadow(
+                                offset: Offset(1, 1.0),
+                                blurRadius: 1.0,
+                                color: Color.fromARGB(50, 0, 0, 0),
+                              ),
+
+                            ],
                             fontSize: 33,
                           ),
                         ),
