@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:potato_project/consts.dart';
 import 'package:potato_project/model/planet_model.dart';
 
 class PredictPlanet{
@@ -6,7 +7,7 @@ class PredictPlanet{
   Future<PlanetModel> predict({required String im64})async{
 
     final response = await dio.post(
-        'https://talented-silkworm-guiding.ngrok-free.app/classify', data:
+        '$KApi/classify', data:
     {
       "image_data": im64,
     });
