@@ -41,6 +41,10 @@ class _AdminScreenState extends State<AdminScreen> {
   @override
   Widget build(BuildContext context) {
     var users = ModalRoute.of(context)!.settings.arguments as List<Users>;
+    Future<void> DeleteUser({required String token, required String id}) async {
+      await DeleteUserData().DeleteUser(token: token, id: id);
+    }
+
     return ModalProgressHUD(
       inAsyncCall: isLoading,
       color: Colors.grey,
@@ -89,20 +93,20 @@ class _AdminScreenState extends State<AdminScreen> {
           padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 10.0),
           child: Column(
             children: [
-              Text("Users",
-              style: TextStyle(
-                fontSize: 33.0,
-                color: Color(0xff006e1c),
-                shadows: <Shadow>[
-                  Shadow(
-                    offset: Offset(1, 1.0),
-                    blurRadius: 1.0,
-                    color: Color.fromARGB(50, 0, 0, 0),
-                  ),
-
-                ],
-                fontFamily: "Pacifico",
-              ),
+              Text(
+                "Users",
+                style: TextStyle(
+                  fontSize: 33.0,
+                  color: Color(0xff006e1c),
+                  shadows: <Shadow>[
+                    Shadow(
+                      offset: Offset(1, 1.0),
+                      blurRadius: 1.0,
+                      color: Color.fromARGB(50, 0, 0, 0),
+                    ),
+                  ],
+                  fontFamily: "Pacifico",
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
@@ -198,9 +202,10 @@ class _AdminScreenState extends State<AdminScreen> {
                                     child: InkWell(
                                       onTap: () async {
                                         try {
-                                          await DeleteUserData().DeleteUser(
-                                              token: token,
-                                              id: users[index].sId);
+                                          DeleteUser(
+                                              token: token!,
+                                              id: users[index].sId!);
+
                                           MessageToUser(
                                               Message:
                                                   "Done Delete ${users[index].name}",

@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
   //we can upload image from camera or from gallery based on parameter
   Future getImage(ImageSource media) async {
     var img = await picker.pickImage(
-        source: media, imageQuality: 50, maxHeight: 500.0, maxWidth: 500.0);
+        source: media, imageQuality: 50, maxHeight: 190.0, maxWidth: 190.0);
     image = img;
     setState(() {});
     if (image != null) {
