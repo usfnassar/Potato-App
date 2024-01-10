@@ -191,7 +191,7 @@ class _ResultPageState extends State<ResultPage> {
               )),
               Positioned(
                   left: 3.0,
-                  top: 27.0,
+                  top: 50.0,
                   child: IconButton(
                     icon: Icon(
                       Icons.arrow_back_ios,
