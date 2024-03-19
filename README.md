@@ -29,6 +29,6 @@ This Flutter application utilizes AI models to assess the health of plants and p
 - [Omar](https://github.com/omarmetwally96)
 
 ## Support
-For assistance, contact [usfnassar0@gmail.com](usfnassar0@gmail.com) or create an issue on GitHub.
+For assistance, contact [usfnassar0@gmail.com](mailto:usfnassar0@gmail.com) or create an issue on GitHub.
 
 
