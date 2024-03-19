@@ -1,16 +1,34 @@
-# potato_project
+# Plant Health Checker App
 
-usfnassar
+## Overview
+This Flutter application utilizes AI models to assess the health of plants and provide appropriate treatment recommendations.
 
-## Getting Started
+## Features
+- Image Recognition
+- Health Assessment
+- Treatment Recommendations
+- Plant Database
+- User-friendly Interface
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
+1. Open the app on your device or emulator.
+2. Capture an image of the plant you want to analyze.
+3. View the health assessment and treatment recommendations.
+4. Explore the plant database for more information.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
+- Flutter
+- TensorFlow
+- MongoDB
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributors
+- [Youssef Nassar](https://github.com/usfnassar)
+- [Mahmoud](https://github.com/M0mahmoud)
+- [Omar](https://github.com/omarmetwally96)
+
+## Support
+For assistance, contact [usfnassar0@gmail.com](usfnassar0@gmail.com) or create an issue on GitHub.
+
+
